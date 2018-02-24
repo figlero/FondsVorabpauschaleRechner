@@ -7,17 +7,21 @@ import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.MobileAds;
 
-public class SecondActivity extends AppCompatActivity {
+public class LastActivity extends AppCompatActivity {
 
     private AdView mAdView;
     private double anfang;
     private double ende;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
+        MobileAds.initialize(this, "ca-app-pub-5274221094683248~5856335647");
 
-        mAdView = findViewById(R.id.adView3);
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_last);
+
+        mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
     }

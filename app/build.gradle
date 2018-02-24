@@ -27,4 +27,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:0.5'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.2'
     compile 'com.google.android.gms:play-services-ads:11.8.0'
+    compile 'com.intuit.ssp:ssp-android:1.0.5'
+    compile 'com.intuit.sdp:sdp-android:1.0.5'
 }

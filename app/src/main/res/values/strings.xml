@@ -3,6 +3,11 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
     <string name="action_settings">Settings</string>
+
+    <string-array name="spinner_items">
+        <item>≥ 51% (Aktienfonds)</item>
+        <item>≥ 25% (Mischfonds)</item>
+        <item>&lt; 25% (Sonstige)</item>
+    </string-array>
 </resources>
